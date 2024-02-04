@@ -32,34 +32,33 @@ h1 {
     color: rgb(169, 169, 169)
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+.navigation {
     display: flex;
-    /* Use flexbox */
     flex-wrap: wrap;
-    /* Allow items to wrap onto the next line */
     justify-content: center;
-    /* Center the items horizontally */
+    padding: 0;
 }
 
-nav ul li {
-    margin: 5px 10px;
-    /* Adjusted for spacing around wrapped items */
-}
-
-nav ul li a {
+.button {
     text-decoration: none;
     color: #f0f0f0;
     background-color: #333;
     padding: 10px 15px;
+    margin: 5px 10px;
     border-radius: 5px;
     transition: background-color 0.3s, opacity 0.3s;
+    display: inline-block;
+    /* Ensures proper spacing and alignment */
 }
 
-nav ul li a:hover {
+.button:hover {
     opacity: 0.7;
 }
+
+
+
+
+
 
 .project-container {
     display: flex;
