@@ -35,11 +35,17 @@ h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    /* Use flexbox */
+    flex-wrap: wrap;
+    /* Allow items to wrap onto the next line */
+    justify-content: center;
+    /* Center the items horizontally */
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 10px;
+    margin: 5px 10px;
+    /* Adjusted for spacing around wrapped items */
 }
 
 nav ul li a {
