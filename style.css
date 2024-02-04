@@ -32,20 +32,23 @@ h1 {
     color: rgb(169, 169, 169)
 }
 
-.navigation ul {
+nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
+    /* Use flexbox */
     flex-wrap: wrap;
+    /* Allow items to wrap onto the next line */
     justify-content: center;
-    margin: 0;
+    /* Center the items horizontally */
 }
 
-.navigation ul li {
-    margin: 5px 10px;
+nav ul li {
+    margin: 15px 10px;
+    /* Adjusted for spacing around wrapped items */
 }
 
-.navigation ul li a {
+nav ul li a {
     text-decoration: none;
     color: #f0f0f0;
     background-color: #333;
@@ -54,7 +57,7 @@ h1 {
     transition: background-color 0.3s, opacity 0.3s;
 }
 
-.navigation ul li a:hover {
+nav ul li a:hover {
     opacity: 0.7;
 }
 
