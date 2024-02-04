@@ -1,0 +1,127 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('assets/BridgePic.png');
+    background-size: cover;
+    /* This will ensure that the image covers the whole page */
+    background-repeat: no-repeat;
+    /* Prevents the image from repeating */
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    color: #0055ff;
+}
+
+#headertext {
+    color: #4180ff
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.paragraphtext {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: rgb(169, 169, 169)
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+nav ul li a:hover {
+    opacity: 0.7;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #242424;
+    width: calc(33% - 40px);
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.project-card h3,
+.project-card p {
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        width: calc(100% - 40px);
+    }
+}
+
+/* Unvisited link */
+a:link {
+    color: #ffffff;
+    /* Black for unvisited links */
+}
+
+/* Visited link */
+a:visited {
+    color: #ffffff;
+
+}
+
+/* Link when the user hovers over it */
+a:hover {
+    color: #638970;
+}
+
+/* Selected link */
+a:active {
+    color: #ffffff;
+
+}
+
+#titleName {
+    width: 80%;
+    height: auto;
+}
